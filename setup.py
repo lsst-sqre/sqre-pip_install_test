@@ -1,6 +1,6 @@
 from setuptools import setup
 
-with open("README.md", "r") as fh:
+with open("README.rst", "r") as fh:
     long_description = fh.read()
 
 setup(name='pip-install-test',
@@ -8,7 +8,6 @@ setup(name='pip-install-test',
       description='A minimal stub package to test success of pip install',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      url='https://github.com/lsst-sqre/sqre-pip_install_test',
       author='Simon Krughoff',
       author_email='krughoff@lsst.org',
       license='MIT',
