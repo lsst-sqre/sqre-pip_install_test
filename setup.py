@@ -1,8 +1,12 @@
 from setuptools import setup
 
-setup(name='pip_install_test',
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setup(name='pip-install-test',
       version='0.1',
       description='A minimal stub package to test success of pip install',
+      long_description=long_description,
       url='https://github.com/lsst-sqre/sqre-pip_install_test',
       author='Simon Krughoff',
       author_email='krughoff@lsst.org',
