@@ -4,7 +4,7 @@ with open("README.rst", "r") as fh:
     long_description = fh.read()
 
 setup(name='pip-install-test',
-      version='0.4',
+      version='0.5',
       description='A minimal stub package to test success of pip install',
       long_description=long_description,
       author='Simon Krughoff',
